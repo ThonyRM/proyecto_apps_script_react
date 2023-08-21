@@ -16,10 +16,22 @@
 <components style="display: none;">
 
     <!--Importaciones  -->
+
     <!--constantes  -->
     <?!= include('frontend/config/constantesCdn') ?>
+
     <!-- rutas -->
     <?!= include('frontend/routes/Routes') ?>
+
+
+
+    <!-- vistas -->
+    <?!= include('frontend/views/Inicio') ?>
+    <?!= include('frontend/views/formularios/FormularioRegistro') ?>
+
+    <?!= include('frontend/components/Header') ?>
+
+
     <!-- componente raiz o vista-->
     <?!= include('frontend/App') ?>
 </components>
